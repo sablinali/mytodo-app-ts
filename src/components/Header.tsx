@@ -11,7 +11,7 @@ export const Header: React.FC<Props> = ({ onAddTodo }) => {
     <>
       <header className="header" />
       <h1>
-        Todo
+        TODO
         <img style={{ width: "60px", height: "auto" }} src={TSlogo} />
       </h1>
       <CreateTodo saveTodo={onAddTodo} />
