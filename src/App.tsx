@@ -13,25 +13,31 @@ import { Header } from "./components/Header";
 const mockTodos = [
   {
     id: "1",
-    title: "Ver tutorial de TS",
+    title: "Watch Astro tutorial video",
     completed: false,
   },
 
   {
     id: "2",
-    title: "Estudiar y practicar algoritmos",
+    title: "Practice JS with Codewars",
     completed: false,
   },
 
   {
     id: "3",
-    title: "Leer",
+    title: "Keep up with my reading",
     completed: false,
   },
 
   {
     id: "4",
-    title: "Crear otra lista en Spotify",
+    title: "Create another playlist in Spotify",
+    completed: false,
+  },
+
+  {
+    id: "5",
+    title: "Join the rollerblading jam",
     completed: false,
   },
 ];
